@@ -1,2 +1,4 @@
 # trackSQLExperiments
-Was interested in seeing how I could use some basic SQL commands on a larger data set than what I could find in my textbook
+Was interested in seeing how I could use some basic SQL commands on a larger data set than what I could find in my textbook. I decided to perform some tests on the 2024 Men's Collegiate 1500m since a reasonably complete data set was available on Athletic.net and I had already had the data in an excel spreadsheet. Didn't know how to export the data into SQL Management Studio, so I meta programmed the INSERT INTO (...) commands using excel's joinbefore() and joinafter() functions, which probably made the exporting and inserting process a million times more complicated than it needed to be, but it was what I figured out. 
+
+This was my first personal experiment with SQL in the first few weeks I've had to use it for class so I know it's not up to par with industry or common standards in terms of data formatting (everything in the table is a string or an integer) since I did not know or couldn't figure out how to implement the correct datatypes for each column (think baby's first steps to SQL).
